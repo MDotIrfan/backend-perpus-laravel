@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\Roles;
+use App\Models\Role;
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -15,7 +15,7 @@ class UsersTableSeeder extends Seeder
      */
     public function run(): void
     {
-        $roleuser = Roles::where('name', 'admin')->first();
+        $roleuser = Role::where('name', 'admin')->first();
         User::create(
             [
                 'name' => 'irfan',
@@ -24,7 +24,7 @@ class UsersTableSeeder extends Seeder
                 'role_id' => $roleuser->id,
             ]
         );
-        $roleuser = Roles::where('name', 'user')->first();
+        $roleuser = Role::where('name', 'user')->first();
         User::create(
             [
                 'name' => 'user',
