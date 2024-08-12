@@ -3,6 +3,7 @@
 Final Project Perpustakaan Oleh Muhammad Irfan
 (Digilib by MdotIrfan)
 
+Link Dokumentasi API (BE) Laravel : https://documenter.getpostman.com/view/36433654/2sA3s3JXJU
 Link Deploy Backend (BE) Laravel : deploybeperpus-production.up.railway.app
 Link Deploy DB MySql : roundhouse.proxy.rlwy.net:10941
 Link Repo Github BE Deploy (Repo Public) : https://github.com/MDotIrfan/backend-perpus-laravel
